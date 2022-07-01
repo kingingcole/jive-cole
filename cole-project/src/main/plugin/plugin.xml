@@ -1,0 +1,45 @@
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://www.jivesoftware.com/schemas/clearspace/2_5/plugin.xsd">
+    <name>cole-project</name>
+    <description>cole-project</description>
+    <author></author>
+    <version>${project.version}</version>
+    <minServerVersion>${jive.version.min}</minServerVersion>
+    <maxServerVersion>${jive.version.max}</maxServerVersion>
+    
+	<!-- you will want to change your class name here! -->
+    <class>com.jivesoftware.customer.Cole.ColeProjectPlugin</class>
+
+	<!-- 
+    <authorURL>
+    <pluginURL>
+    <databaseKey>
+    <databaseVersion>
+    <components>
+    <css>
+    <soy>
+    <javascript>
+    <widget>
+    <macro>
+    <urlmapping>
+    <sitemesh>
+	-->
+
+    <components>
+        <!-- community -->
+        <component id="community-actions">
+            <tab id="community-actions-tab">
+                <item id="jive-link-create-community-cole" name="community.create.foo.link" cssClass="jive-icon-med jive-icon-foo">
+                    <url>
+                        <![CDATA[
+                            <@s.url action='create-cole' method='input'>
+                                <@s.param name='container' value='${community.ID?c}'/>
+                                <@s.param name='containerType' value='${community.objectType?c}'/>
+                            </@s.url>]]>
+                    </url>
+                </item>
+            </tab>
+        </component>
+    </components>
+
+</plugin>

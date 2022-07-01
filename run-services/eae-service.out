@@ -1,0 +1,435 @@
+2022-06-30 11:14:45,518 [com.jivesoftware.eae.service.Main.main()] WARN [] com.jivesoftware.eae.common.service.Service - Failed to load version.properties
+2022-06-30 11:14:45,683 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.common.service.Service - Classpath: /Users/ikennaemeruche/.sdkman/candidates/maven/current/boot/plexus-classworlds-2.6.0.jar
+2022-06-30 11:14:45,886 [com.jivesoftware.eae.service.Main.main()] INFO [] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@ef90f09: startup date [Thu Jun 30 11:14:45 WAT 2022]; root of context hierarchy
+2022-06-30 11:14:48,146 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:RTCCollaborationsInboxHandler
+2022-06-30 11:14:48,147 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:MattersMostContextHandler
+2022-06-30 11:14:48,147 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:StreamWritesToRecommenderHandler
+2022-06-30 11:14:48,147 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SuppressUnreadUsersHandler
+2022-06-30 11:14:48,148 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SendBranchedToStreamsHandler
+2022-06-30 11:14:48,148 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:CollaborationNotificationInboxHandler
+2022-06-30 11:14:48,148 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SocialNewsContainerEventsStreamHandler
+2022-06-30 11:14:48,148 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:PreUpgradeActivityHandler
+2022-06-30 11:14:48,148 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:DirectMessagesInboxHandler
+2022-06-30 11:14:48,149 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:PipelineInitializationHandler
+2022-06-30 11:14:48,149 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AllStreamContainerHandler
+2022-06-30 11:14:48,149 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:GlobalStreamContainerHandler
+2022-06-30 11:14:48,150 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContentFollowsHandler
+2022-06-30 11:14:48,150 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:TaggedEntityFollowsHandler
+2022-06-30 11:14:48,151 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:BroadcastAnnouncementHandler
+2022-06-30 11:14:48,151 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContextAnnouncementsHandler
+2022-06-30 11:14:48,151 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:EnqueueToUserStreamsHandler
+2022-06-30 11:14:48,151 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UpgradeStreamAssociationHandler
+2022-06-30 11:14:48,152 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContentFollowsStreamHandler
+2022-06-30 11:14:48,152 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContentTrackingInboxHandler
+2022-06-30 11:14:48,152 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContextAnnouncementsStreamInboxHandler
+2022-06-30 11:14:48,152 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContextFollowsStreamHandler
+2022-06-30 11:14:48,152 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:LoginHandler
+2022-06-30 11:14:48,153 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AllStreamHandler
+2022-06-30 11:14:48,153 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:GlobalStreamHandler
+2022-06-30 11:14:48,154 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ParentContainerHandler
+2022-06-30 11:14:48,154 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:MovedHandler
+2022-06-30 11:14:48,155 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContextHandler
+2022-06-30 11:14:48,155 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserActivityHandler
+2022-06-30 11:14:48,155 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ProfileStreamHandler
+2022-06-30 11:14:48,156 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContextFollowsHandler
+2022-06-30 11:14:48,156 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:TagFollowsHandler
+2022-06-30 11:14:48,156 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AuthorHandler
+2022-06-30 11:14:48,157 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserTagInboxHandler
+2022-06-30 11:14:48,158 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:TrackingHandler
+2022-06-30 11:14:48,159 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserFollowsHandler
+2022-06-30 11:14:48,159 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AnnouncementsHandler
+2022-06-30 11:14:48,159 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SharedContentHandler
+2022-06-30 11:14:48,159 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ExclusionHandler
+2022-06-30 11:14:48,159 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:HiddenHandler
+2022-06-30 11:14:48,160 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:DeletionHandler
+2022-06-30 11:14:48,160 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserReadTrackerHandler
+2022-06-30 11:14:48,160 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserViewTrackerHandler
+2022-06-30 11:14:48,160 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:RemoveRecommendationHandler
+2022-06-30 11:14:48,160 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ShredderHandler
+2022-06-30 11:14:48,160 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserDeletedHandler
+2022-06-30 11:14:48,160 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:TraceProcessingHandler
+2022-06-30 11:14:48,161 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AuthorsInboxHandler
+2022-06-30 11:14:48,161 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SharedInboxHandler
+2022-06-30 11:14:48,161 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserMentionsInboxHandler
+2022-06-30 11:14:48,161 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:TagFollowsStreamHandler
+2022-06-30 11:14:48,161 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserFollowsStreamHandler
+2022-06-30 11:14:48,163 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AcclaimStreamHandler
+2022-06-30 11:14:48,164 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SocialNewsStreamHandler
+2022-06-30 11:14:48,164 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:CollaborationInboxHandler
+2022-06-30 11:14:48,164 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:BroadcastInboxHandler
+2022-06-30 11:14:48,165 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ForUserRecencyHandler
+2022-06-30 11:14:48,165 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:EnqueueToSocketHandler
+2022-06-30 11:14:48,165 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SendToStreamsHandler
+2022-06-30 11:14:48,166 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:EmailNotificationHandler
+2022-06-30 11:14:48,240 [com.jivesoftware.eae.service.Main.main()] INFO [] org.springframework.jmx.export.MBeanExporter - Registering beans for JMX exposure on startup
+2022-06-30 11:14:48,327 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:ClearRecoRequestProcessor
+2022-06-30 11:14:48,329 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:EnableRecommenderProcessor
+2022-06-30 11:14:48,330 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:DisableRecommenderProcessor
+2022-06-30 11:14:48,330 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:ReshredActivityProcessor
+2022-06-30 11:14:48,330 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:StopReshredActivityProcessor
+2022-06-30 11:14:48,330 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:MissingFeaturesProcessor
+2022-06-30 11:14:48,478 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started remoteIndexableRetryQueue
+2022-06-30 11:14:48,479 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started remoteIndexableQueue
+2022-06-30 11:14:48,494 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started recommendationQueue
+2022-06-30 11:14:48,500 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started shredderQueue
+2022-06-30 11:14:48,501 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started Migrate Inbox To Pipeline Participants
+2022-06-30 11:14:48,503 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started CheckRecommenderForCommandThread
+2022-06-30 11:14:48,511 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started recommendationRequestQueue
+2022-06-30 11:14:48,523 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started Firehose Migrator
+2022-06-30 11:14:48,523 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started Recommender.Heartbeat
+2022-06-30 11:14:48,524 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started commandQueue
+2022-06-30 11:14:48,524 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started mostlyOrderedQueue
+2022-06-30 11:14:48,525 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started activityQueue
+2022-06-30 11:14:48,525 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started deletionQueue
+2022-06-30 11:14:48,525 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started upgradeQueue
+2022-06-30 11:14:48,526 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started reshredQueue
+2022-06-30 11:14:48,576 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Starting EAE core server at localhost:7020
+2022-06-30 11:14:48,582 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.sendreceive.SendReceiveServerImpl - Starting Netty service endpoint... eae-service:7020 (minWorkerThreads=4, maxWorkerThreads=2048)
+2022-06-30 11:20:43,068 [com.jivesoftware.eae.service.Main.main()] WARN [] com.jivesoftware.eae.common.service.Service - Failed to load version.properties
+2022-06-30 11:20:43,224 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.common.service.Service - Classpath: /Users/ikennaemeruche/.sdkman/candidates/maven/current/boot/plexus-classworlds-2.6.0.jar
+2022-06-30 11:20:43,634 [com.jivesoftware.eae.service.Main.main()] INFO [] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@25920fc1: startup date [Thu Jun 30 11:20:43 WAT 2022]; root of context hierarchy
+2022-06-30 11:20:46,028 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:RTCCollaborationsInboxHandler
+2022-06-30 11:20:46,030 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:PipelineInitializationHandler
+2022-06-30 11:20:46,030 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AllStreamContainerHandler
+2022-06-30 11:20:46,030 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:GlobalStreamContainerHandler
+2022-06-30 11:20:46,031 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContentFollowsHandler
+2022-06-30 11:20:46,031 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:TaggedEntityFollowsHandler
+2022-06-30 11:20:46,031 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:BroadcastAnnouncementHandler
+2022-06-30 11:20:46,032 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContextAnnouncementsHandler
+2022-06-30 11:20:46,032 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:EnqueueToUserStreamsHandler
+2022-06-30 11:20:46,032 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UpgradeStreamAssociationHandler
+2022-06-30 11:20:46,033 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContentFollowsStreamHandler
+2022-06-30 11:20:46,033 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContentTrackingInboxHandler
+2022-06-30 11:20:46,033 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContextAnnouncementsStreamInboxHandler
+2022-06-30 11:20:46,034 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContextFollowsStreamHandler
+2022-06-30 11:20:46,034 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SocialNewsContainerEventsStreamHandler
+2022-06-30 11:20:46,034 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:DirectMessagesInboxHandler
+2022-06-30 11:20:46,034 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:CollaborationNotificationInboxHandler
+2022-06-30 11:20:46,035 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:PreUpgradeActivityHandler
+2022-06-30 11:20:46,035 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SuppressUnreadUsersHandler
+2022-06-30 11:20:46,035 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SendBranchedToStreamsHandler
+2022-06-30 11:20:46,036 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:StreamWritesToRecommenderHandler
+2022-06-30 11:20:46,036 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:MattersMostContextHandler
+2022-06-30 11:20:46,037 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:LoginHandler
+2022-06-30 11:20:46,037 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AllStreamHandler
+2022-06-30 11:20:46,037 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:GlobalStreamHandler
+2022-06-30 11:20:46,037 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ParentContainerHandler
+2022-06-30 11:20:46,038 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:MovedHandler
+2022-06-30 11:20:46,038 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContextHandler
+2022-06-30 11:20:46,038 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserActivityHandler
+2022-06-30 11:20:46,038 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ProfileStreamHandler
+2022-06-30 11:20:46,039 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContextFollowsHandler
+2022-06-30 11:20:46,039 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:TagFollowsHandler
+2022-06-30 11:20:46,039 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AuthorHandler
+2022-06-30 11:20:46,039 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserTagInboxHandler
+2022-06-30 11:20:46,040 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:TrackingHandler
+2022-06-30 11:20:46,040 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserFollowsHandler
+2022-06-30 11:20:46,041 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AnnouncementsHandler
+2022-06-30 11:20:46,041 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SharedContentHandler
+2022-06-30 11:20:46,041 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ExclusionHandler
+2022-06-30 11:20:46,041 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:HiddenHandler
+2022-06-30 11:20:46,042 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:DeletionHandler
+2022-06-30 11:20:46,042 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserReadTrackerHandler
+2022-06-30 11:20:46,042 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserViewTrackerHandler
+2022-06-30 11:20:46,042 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:RemoveRecommendationHandler
+2022-06-30 11:20:46,043 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ShredderHandler
+2022-06-30 11:20:46,043 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserDeletedHandler
+2022-06-30 11:20:46,043 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:TraceProcessingHandler
+2022-06-30 11:20:46,043 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AuthorsInboxHandler
+2022-06-30 11:20:46,044 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SharedInboxHandler
+2022-06-30 11:20:46,045 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserMentionsInboxHandler
+2022-06-30 11:20:46,045 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:TagFollowsStreamHandler
+2022-06-30 11:20:46,045 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserFollowsStreamHandler
+2022-06-30 11:20:46,046 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AcclaimStreamHandler
+2022-06-30 11:20:46,046 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SocialNewsStreamHandler
+2022-06-30 11:20:46,046 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:CollaborationInboxHandler
+2022-06-30 11:20:46,046 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:BroadcastInboxHandler
+2022-06-30 11:20:46,046 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ForUserRecencyHandler
+2022-06-30 11:20:46,047 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:EnqueueToSocketHandler
+2022-06-30 11:20:46,048 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SendToStreamsHandler
+2022-06-30 11:20:46,048 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:EmailNotificationHandler
+2022-06-30 11:20:46,138 [com.jivesoftware.eae.service.Main.main()] INFO [] org.springframework.jmx.export.MBeanExporter - Registering beans for JMX exposure on startup
+2022-06-30 11:20:46,230 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:ClearRecoRequestProcessor
+2022-06-30 11:20:46,230 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:EnableRecommenderProcessor
+2022-06-30 11:20:46,231 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:DisableRecommenderProcessor
+2022-06-30 11:20:46,231 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:ReshredActivityProcessor
+2022-06-30 11:20:46,231 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:StopReshredActivityProcessor
+2022-06-30 11:20:46,231 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:MissingFeaturesProcessor
+2022-06-30 11:20:46,398 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started Migrate Inbox To Pipeline Participants
+2022-06-30 11:20:46,402 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started CheckRecommenderForCommandThread
+2022-06-30 11:20:46,404 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started remoteIndexableQueue
+2022-06-30 11:20:46,406 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started remoteIndexableRetryQueue
+2022-06-30 11:20:46,408 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started shredderQueue
+2022-06-30 11:20:46,420 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started recommendationQueue
+2022-06-30 11:20:46,432 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started recommendationRequestQueue
+2022-06-30 11:20:46,433 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started reshredQueue
+2022-06-30 11:20:46,433 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started Recommender.Heartbeat
+2022-06-30 11:20:46,433 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started Firehose Migrator
+2022-06-30 11:20:46,434 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started commandQueue
+2022-06-30 11:20:46,434 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started mostlyOrderedQueue
+2022-06-30 11:20:46,434 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started deletionQueue
+2022-06-30 11:20:46,435 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started activityQueue
+2022-06-30 11:20:46,435 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started upgradeQueue
+2022-06-30 11:20:46,475 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Starting EAE core server at localhost:7020
+2022-06-30 11:20:46,479 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.sendreceive.SendReceiveServerImpl - Starting Netty service endpoint... eae-service:7020 (minWorkerThreads=4, maxWorkerThreads=2048)
+2022-06-30 21:43:52,104 [com.jivesoftware.eae.service.Main.main()] WARN [] com.jivesoftware.eae.common.service.Service - Failed to load version.properties
+2022-06-30 21:43:52,236 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.common.service.Service - Classpath: /Users/ikennaemeruche/.sdkman/candidates/maven/current/boot/plexus-classworlds-2.6.0.jar
+2022-06-30 21:43:52,455 [com.jivesoftware.eae.service.Main.main()] INFO [] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6f9c8bff: startup date [Thu Jun 30 21:43:52 WAT 2022]; root of context hierarchy
+2022-06-30 21:43:54,698 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:RTCCollaborationsInboxHandler
+2022-06-30 21:43:54,700 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:PipelineInitializationHandler
+2022-06-30 21:43:54,700 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AllStreamContainerHandler
+2022-06-30 21:43:54,700 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:GlobalStreamContainerHandler
+2022-06-30 21:43:54,701 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContentFollowsHandler
+2022-06-30 21:43:54,701 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:TaggedEntityFollowsHandler
+2022-06-30 21:43:54,701 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:BroadcastAnnouncementHandler
+2022-06-30 21:43:54,701 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContextAnnouncementsHandler
+2022-06-30 21:43:54,702 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:EnqueueToUserStreamsHandler
+2022-06-30 21:43:54,702 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UpgradeStreamAssociationHandler
+2022-06-30 21:43:54,702 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContentFollowsStreamHandler
+2022-06-30 21:43:54,702 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContentTrackingInboxHandler
+2022-06-30 21:43:54,702 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContextAnnouncementsStreamInboxHandler
+2022-06-30 21:43:54,703 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContextFollowsStreamHandler
+2022-06-30 21:43:54,703 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SocialNewsContainerEventsStreamHandler
+2022-06-30 21:43:54,703 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:DirectMessagesInboxHandler
+2022-06-30 21:43:54,703 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:CollaborationNotificationInboxHandler
+2022-06-30 21:43:54,703 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:PreUpgradeActivityHandler
+2022-06-30 21:43:54,704 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SuppressUnreadUsersHandler
+2022-06-30 21:43:54,705 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SendBranchedToStreamsHandler
+2022-06-30 21:43:54,705 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:StreamWritesToRecommenderHandler
+2022-06-30 21:43:54,705 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:MattersMostContextHandler
+2022-06-30 21:43:54,705 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:LoginHandler
+2022-06-30 21:43:54,705 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AllStreamHandler
+2022-06-30 21:43:54,706 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:GlobalStreamHandler
+2022-06-30 21:43:54,706 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ParentContainerHandler
+2022-06-30 21:43:54,706 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:MovedHandler
+2022-06-30 21:43:54,707 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContextHandler
+2022-06-30 21:43:54,707 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserActivityHandler
+2022-06-30 21:43:54,707 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ProfileStreamHandler
+2022-06-30 21:43:54,707 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContextFollowsHandler
+2022-06-30 21:43:54,707 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:TagFollowsHandler
+2022-06-30 21:43:54,707 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AuthorHandler
+2022-06-30 21:43:54,708 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserTagInboxHandler
+2022-06-30 21:43:54,708 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:TrackingHandler
+2022-06-30 21:43:54,709 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserFollowsHandler
+2022-06-30 21:43:54,709 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AnnouncementsHandler
+2022-06-30 21:43:54,709 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SharedContentHandler
+2022-06-30 21:43:54,710 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ExclusionHandler
+2022-06-30 21:43:54,710 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:HiddenHandler
+2022-06-30 21:43:54,710 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:DeletionHandler
+2022-06-30 21:43:54,710 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserReadTrackerHandler
+2022-06-30 21:43:54,710 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserViewTrackerHandler
+2022-06-30 21:43:54,710 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:RemoveRecommendationHandler
+2022-06-30 21:43:54,711 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ShredderHandler
+2022-06-30 21:43:54,711 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserDeletedHandler
+2022-06-30 21:43:54,712 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:TraceProcessingHandler
+2022-06-30 21:43:54,712 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AuthorsInboxHandler
+2022-06-30 21:43:54,712 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SharedInboxHandler
+2022-06-30 21:43:54,713 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserMentionsInboxHandler
+2022-06-30 21:43:54,713 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:TagFollowsStreamHandler
+2022-06-30 21:43:54,713 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserFollowsStreamHandler
+2022-06-30 21:43:54,713 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AcclaimStreamHandler
+2022-06-30 21:43:54,713 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SocialNewsStreamHandler
+2022-06-30 21:43:54,713 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:CollaborationInboxHandler
+2022-06-30 21:43:54,714 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:BroadcastInboxHandler
+2022-06-30 21:43:54,714 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ForUserRecencyHandler
+2022-06-30 21:43:54,714 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:EnqueueToSocketHandler
+2022-06-30 21:43:54,715 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SendToStreamsHandler
+2022-06-30 21:43:54,715 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:EmailNotificationHandler
+2022-06-30 21:43:54,793 [com.jivesoftware.eae.service.Main.main()] INFO [] org.springframework.jmx.export.MBeanExporter - Registering beans for JMX exposure on startup
+2022-06-30 21:43:54,857 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:ClearRecoRequestProcessor
+2022-06-30 21:43:54,858 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:EnableRecommenderProcessor
+2022-06-30 21:43:54,858 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:DisableRecommenderProcessor
+2022-06-30 21:43:54,858 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:ReshredActivityProcessor
+2022-06-30 21:43:54,859 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:StopReshredActivityProcessor
+2022-06-30 21:43:54,859 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:MissingFeaturesProcessor
+2022-06-30 21:43:55,037 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started Migrate Inbox To Pipeline Participants
+2022-06-30 21:43:55,040 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started CheckRecommenderForCommandThread
+2022-06-30 21:43:55,044 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started remoteIndexableQueue
+2022-06-30 21:43:55,048 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started remoteIndexableRetryQueue
+2022-06-30 21:43:55,049 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started shredderQueue
+2022-06-30 21:43:55,076 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started recommendationQueue
+2022-06-30 21:43:55,081 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started recommendationRequestQueue
+2022-06-30 21:43:55,082 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started commandQueue
+2022-06-30 21:43:55,082 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started mostlyOrderedQueue
+2022-06-30 21:43:55,082 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started activityQueue
+2022-06-30 21:43:55,082 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started deletionQueue
+2022-06-30 21:43:55,082 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started upgradeQueue
+2022-06-30 21:43:55,082 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started reshredQueue
+2022-06-30 21:43:55,083 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started Recommender.Heartbeat
+2022-06-30 21:43:55,084 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started Firehose Migrator
+2022-06-30 21:43:55,133 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Starting EAE core server at localhost:7020
+2022-06-30 21:43:55,138 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.sendreceive.SendReceiveServerImpl - Starting Netty service endpoint... eae-service:7020 (minWorkerThreads=4, maxWorkerThreads=2048)
+2022-06-30 22:12:23,363 [com.jivesoftware.eae.service.Main.main()] WARN [] com.jivesoftware.eae.common.service.Service - Failed to load version.properties
+2022-06-30 22:12:23,488 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.common.service.Service - Classpath: /Users/ikennaemeruche/.sdkman/candidates/maven/current/boot/plexus-classworlds-2.6.0.jar
+2022-06-30 22:12:23,705 [com.jivesoftware.eae.service.Main.main()] INFO [] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@482a956c: startup date [Thu Jun 30 22:12:23 WAT 2022]; root of context hierarchy
+2022-06-30 22:12:26,287 [com.jivesoftware.eae.service.Main.main()] INFO [] org.springframework.jmx.export.MBeanExporter - Registering beans for JMX exposure on startup
+2022-06-30 22:12:26,359 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:ClearRecoRequestProcessor
+2022-06-30 22:12:26,359 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:EnableRecommenderProcessor
+2022-06-30 22:12:26,359 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:DisableRecommenderProcessor
+2022-06-30 22:12:26,360 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:ReshredActivityProcessor
+2022-06-30 22:12:26,360 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:StopReshredActivityProcessor
+2022-06-30 22:12:26,360 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:MissingFeaturesProcessor
+2022-06-30 22:12:26,365 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:PipelineInitializationHandler
+2022-06-30 22:12:26,366 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AllStreamContainerHandler
+2022-06-30 22:12:26,366 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:GlobalStreamContainerHandler
+2022-06-30 22:12:26,366 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContentFollowsHandler
+2022-06-30 22:12:26,367 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:TaggedEntityFollowsHandler
+2022-06-30 22:12:26,367 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:BroadcastAnnouncementHandler
+2022-06-30 22:12:26,367 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContextAnnouncementsHandler
+2022-06-30 22:12:26,367 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:EnqueueToUserStreamsHandler
+2022-06-30 22:12:26,368 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UpgradeStreamAssociationHandler
+2022-06-30 22:12:26,368 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContentFollowsStreamHandler
+2022-06-30 22:12:26,368 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContentTrackingInboxHandler
+2022-06-30 22:12:26,369 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContextAnnouncementsStreamInboxHandler
+2022-06-30 22:12:26,369 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContextFollowsStreamHandler
+2022-06-30 22:12:26,369 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SocialNewsContainerEventsStreamHandler
+2022-06-30 22:12:26,369 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:DirectMessagesInboxHandler
+2022-06-30 22:12:26,369 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:CollaborationNotificationInboxHandler
+2022-06-30 22:12:26,370 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:PreUpgradeActivityHandler
+2022-06-30 22:12:26,370 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SuppressUnreadUsersHandler
+2022-06-30 22:12:26,370 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SendBranchedToStreamsHandler
+2022-06-30 22:12:26,371 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:StreamWritesToRecommenderHandler
+2022-06-30 22:12:26,371 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:MattersMostContextHandler
+2022-06-30 22:12:26,371 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:LoginHandler
+2022-06-30 22:12:26,371 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AllStreamHandler
+2022-06-30 22:12:26,372 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:GlobalStreamHandler
+2022-06-30 22:12:26,372 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ParentContainerHandler
+2022-06-30 22:12:26,372 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:MovedHandler
+2022-06-30 22:12:26,373 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContextHandler
+2022-06-30 22:12:26,373 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserActivityHandler
+2022-06-30 22:12:26,373 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ProfileStreamHandler
+2022-06-30 22:12:26,373 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContextFollowsHandler
+2022-06-30 22:12:26,373 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:TagFollowsHandler
+2022-06-30 22:12:26,374 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AuthorHandler
+2022-06-30 22:12:26,374 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserTagInboxHandler
+2022-06-30 22:12:26,374 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:TrackingHandler
+2022-06-30 22:12:26,374 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserFollowsHandler
+2022-06-30 22:12:26,375 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AnnouncementsHandler
+2022-06-30 22:12:26,375 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SharedContentHandler
+2022-06-30 22:12:26,375 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ExclusionHandler
+2022-06-30 22:12:26,376 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:HiddenHandler
+2022-06-30 22:12:26,376 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:DeletionHandler
+2022-06-30 22:12:26,376 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserReadTrackerHandler
+2022-06-30 22:12:26,376 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserViewTrackerHandler
+2022-06-30 22:12:26,377 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:RemoveRecommendationHandler
+2022-06-30 22:12:26,377 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ShredderHandler
+2022-06-30 22:12:26,377 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserDeletedHandler
+2022-06-30 22:12:26,377 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:TraceProcessingHandler
+2022-06-30 22:12:26,377 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AuthorsInboxHandler
+2022-06-30 22:12:26,379 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SharedInboxHandler
+2022-06-30 22:12:26,379 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserMentionsInboxHandler
+2022-06-30 22:12:26,380 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:TagFollowsStreamHandler
+2022-06-30 22:12:26,380 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserFollowsStreamHandler
+2022-06-30 22:12:26,380 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AcclaimStreamHandler
+2022-06-30 22:12:26,380 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SocialNewsStreamHandler
+2022-06-30 22:12:26,380 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:CollaborationInboxHandler
+2022-06-30 22:12:26,381 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:BroadcastInboxHandler
+2022-06-30 22:12:26,381 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ForUserRecencyHandler
+2022-06-30 22:12:26,381 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:EnqueueToSocketHandler
+2022-06-30 22:12:26,382 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SendToStreamsHandler
+2022-06-30 22:12:26,383 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:EmailNotificationHandler
+2022-06-30 22:12:26,383 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:RTCCollaborationsInboxHandler
+2022-06-30 22:12:26,531 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started Migrate Inbox To Pipeline Participants
+2022-06-30 22:12:26,532 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started CheckRecommenderForCommandThread
+2022-06-30 22:12:26,533 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started remoteIndexableQueue
+2022-06-30 22:12:26,534 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started remoteIndexableRetryQueue
+2022-06-30 22:12:26,535 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started shredderQueue
+2022-06-30 22:12:26,552 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started recommendationQueue
+2022-06-30 22:12:26,559 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started recommendationRequestQueue
+2022-06-30 22:12:26,560 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started Recommender.Heartbeat
+2022-06-30 22:12:26,560 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started Firehose Migrator
+2022-06-30 22:12:26,561 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started commandQueue
+2022-06-30 22:12:26,562 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started mostlyOrderedQueue
+2022-06-30 22:12:26,562 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started activityQueue
+2022-06-30 22:12:26,562 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started deletionQueue
+2022-06-30 22:12:26,563 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started upgradeQueue
+2022-06-30 22:12:26,563 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started reshredQueue
+2022-06-30 22:12:26,605 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Starting EAE core server at localhost:7020
+2022-06-30 22:12:26,608 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.sendreceive.SendReceiveServerImpl - Starting Netty service endpoint... eae-service:7020 (minWorkerThreads=4, maxWorkerThreads=2048)
+2022-06-30 22:21:11,889 [com.jivesoftware.eae.service.Main.main()] WARN [] com.jivesoftware.eae.common.service.Service - Failed to load version.properties
+2022-06-30 22:21:12,016 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.common.service.Service - Classpath: /Users/ikennaemeruche/.sdkman/candidates/maven/current/boot/plexus-classworlds-2.6.0.jar
+2022-06-30 22:21:12,246 [com.jivesoftware.eae.service.Main.main()] INFO [] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@30b20023: startup date [Thu Jun 30 22:21:12 WAT 2022]; root of context hierarchy
+2022-06-30 22:21:14,514 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:RTCCollaborationsInboxHandler
+2022-06-30 22:21:14,516 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:PipelineInitializationHandler
+2022-06-30 22:21:14,516 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AllStreamContainerHandler
+2022-06-30 22:21:14,517 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:GlobalStreamContainerHandler
+2022-06-30 22:21:14,517 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContentFollowsHandler
+2022-06-30 22:21:14,517 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:TaggedEntityFollowsHandler
+2022-06-30 22:21:14,517 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:BroadcastAnnouncementHandler
+2022-06-30 22:21:14,517 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContextAnnouncementsHandler
+2022-06-30 22:21:14,518 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:EnqueueToUserStreamsHandler
+2022-06-30 22:21:14,518 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UpgradeStreamAssociationHandler
+2022-06-30 22:21:14,518 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContentFollowsStreamHandler
+2022-06-30 22:21:14,518 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContentTrackingInboxHandler
+2022-06-30 22:21:14,518 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContextAnnouncementsStreamInboxHandler
+2022-06-30 22:21:14,519 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContextFollowsStreamHandler
+2022-06-30 22:21:14,519 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SocialNewsContainerEventsStreamHandler
+2022-06-30 22:21:14,520 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:DirectMessagesInboxHandler
+2022-06-30 22:21:14,521 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:CollaborationNotificationInboxHandler
+2022-06-30 22:21:14,521 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:PreUpgradeActivityHandler
+2022-06-30 22:21:14,521 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SuppressUnreadUsersHandler
+2022-06-30 22:21:14,521 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SendBranchedToStreamsHandler
+2022-06-30 22:21:14,522 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:StreamWritesToRecommenderHandler
+2022-06-30 22:21:14,522 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:MattersMostContextHandler
+2022-06-30 22:21:14,522 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:LoginHandler
+2022-06-30 22:21:14,522 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AllStreamHandler
+2022-06-30 22:21:14,522 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:GlobalStreamHandler
+2022-06-30 22:21:14,522 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ParentContainerHandler
+2022-06-30 22:21:14,523 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:MovedHandler
+2022-06-30 22:21:14,523 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContextHandler
+2022-06-30 22:21:14,523 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserActivityHandler
+2022-06-30 22:21:14,524 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ProfileStreamHandler
+2022-06-30 22:21:14,524 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ContextFollowsHandler
+2022-06-30 22:21:14,525 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:TagFollowsHandler
+2022-06-30 22:21:14,525 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AuthorHandler
+2022-06-30 22:21:14,525 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserTagInboxHandler
+2022-06-30 22:21:14,525 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:TrackingHandler
+2022-06-30 22:21:14,525 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserFollowsHandler
+2022-06-30 22:21:14,525 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AnnouncementsHandler
+2022-06-30 22:21:14,526 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SharedContentHandler
+2022-06-30 22:21:14,526 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ExclusionHandler
+2022-06-30 22:21:14,526 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:HiddenHandler
+2022-06-30 22:21:14,526 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:DeletionHandler
+2022-06-30 22:21:14,527 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserReadTrackerHandler
+2022-06-30 22:21:14,529 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserViewTrackerHandler
+2022-06-30 22:21:14,529 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:RemoveRecommendationHandler
+2022-06-30 22:21:14,529 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ShredderHandler
+2022-06-30 22:21:14,530 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserDeletedHandler
+2022-06-30 22:21:14,530 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:TraceProcessingHandler
+2022-06-30 22:21:14,530 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AuthorsInboxHandler
+2022-06-30 22:21:14,530 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SharedInboxHandler
+2022-06-30 22:21:14,530 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserMentionsInboxHandler
+2022-06-30 22:21:14,530 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:TagFollowsStreamHandler
+2022-06-30 22:21:14,530 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:UserFollowsStreamHandler
+2022-06-30 22:21:14,530 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:AcclaimStreamHandler
+2022-06-30 22:21:14,531 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SocialNewsStreamHandler
+2022-06-30 22:21:14,531 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:CollaborationInboxHandler
+2022-06-30 22:21:14,531 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:BroadcastInboxHandler
+2022-06-30 22:21:14,532 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:ForUserRecencyHandler
+2022-06-30 22:21:14,535 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:EnqueueToSocketHandler
+2022-06-30 22:21:14,535 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:SendToStreamsHandler
+2022-06-30 22:21:14,535 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering activity handler:EmailNotificationHandler
+2022-06-30 22:21:14,622 [com.jivesoftware.eae.service.Main.main()] INFO [] org.springframework.jmx.export.MBeanExporter - Registering beans for JMX exposure on startup
+2022-06-30 22:21:14,686 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:ClearRecoRequestProcessor
+2022-06-30 22:21:14,687 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:EnableRecommenderProcessor
+2022-06-30 22:21:14,687 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:DisableRecommenderProcessor
+2022-06-30 22:21:14,687 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:ReshredActivityProcessor
+2022-06-30 22:21:14,687 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:StopReshredActivityProcessor
+2022-06-30 22:21:14,688 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.RuntimeConfiguration - Registering command processor:MissingFeaturesProcessor
+2022-06-30 22:21:14,871 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started recommendationRequestQueue
+2022-06-30 22:21:14,879 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started Migrate Inbox To Pipeline Participants
+2022-06-30 22:21:14,879 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started CheckRecommenderForCommandThread
+2022-06-30 22:21:14,880 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started shredderQueue
+2022-06-30 22:21:14,896 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started recommendationQueue
+2022-06-30 22:21:14,898 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started remoteIndexableRetryQueue
+2022-06-30 22:21:14,898 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started remoteIndexableQueue
+2022-06-30 22:21:14,899 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started commandQueue
+2022-06-30 22:21:14,899 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started mostlyOrderedQueue
+2022-06-30 22:21:14,899 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started activityQueue
+2022-06-30 22:21:14,899 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started deletionQueue
+2022-06-30 22:21:14,899 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started upgradeQueue
+2022-06-30 22:21:14,901 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started reshredQueue
+2022-06-30 22:21:14,902 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started Firehose Migrator
+2022-06-30 22:21:14,902 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Started Recommender.Heartbeat
+2022-06-30 22:21:14,945 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.service.Main - Starting EAE core server at localhost:7020
+2022-06-30 22:21:14,947 [com.jivesoftware.eae.service.Main.main()] INFO [] com.jivesoftware.eae.sendreceive.SendReceiveServerImpl - Starting Netty service endpoint... eae-service:7020 (minWorkerThreads=4, maxWorkerThreads=2048)

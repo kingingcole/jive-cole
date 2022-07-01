@@ -1,0 +1,12 @@
+{
+  "tenantIdToServiceTenantId" : {
+    "tenantId" : {
+      "serviceNameToTenantId" : {
+        "searchIndexManage" : "renammpedToTenantId",
+        "search" : "renammpedToTenantId",
+        "rebuildSearchIndex" : "renammpedToTenantId",
+        "activityIngress" : "renammpedToTenantId"
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "defaultServiceDirectory" : {
+    "searchIndexManage" : {
+      "host" : "localhost",
+      "port" : 30000
+    },
+    "search" : {
+      "host" : "localhost",
+      "port" : 30000
+    },
+    "rebuildSearchIndex" : {
+      "host" : "localhost",
+      "port" : 30000
+    },
+    "activityIngress" : {
+      "host" : "localhost",
+      "port" : 30000
+    },
+    "directory" : {
+      "host" : "localhost",
+      "port" : 30000
+    }
+  },
+  "tenantSpecificServiceDirectory" : {
+    "replaceWithCustomerTenantId" : {
+      "serviceDirectory" : {
+        "searchIndexManage" : {
+          "host" : "localhost",
+          "port" : 30000
+        },
+        "search" : {
+          "host" : "localhost",
+          "port" : 30000
+        },
+        "rebuildSearchIndex" : {
+          "host" : "localhost",
+          "port" : 30000
+        },
+        "activityIngress" : {
+          "host" : "localhost",
+          "port" : 30000
+        },
+        "directory" : {
+          "host" : "localhost",
+          "port" : 30000
+        }
+      }
+    }
+  }
+}
